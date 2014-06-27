@@ -5793,3 +5793,8 @@ button.close {
     display: none !important;
   }
 }
+header#our-company {
+  background-image: url("../images/bg-our-company.jpg");
+  height: 300px;
+  color: #eeeeee;
+}
