@@ -1,0 +1,532 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"MIN",
+				"min"
+			],
+			[
+				"text",
+				"text/less"
+			],
+			[
+				"lay",
+				"layout"
+			],
+			[
+				"res",
+				"responsive"
+			],
+			[
+				"gra",
+				"gray"
+			],
+			[
+				"ora",
+				"orange"
+			],
+			[
+				"mix",
+				"mixins"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"over",
+				"overriding"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"conte",
+				"container"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"PA",
+				"padding-top"
+			],
+			[
+				"aut",
+				"auto"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"rese",
+				"reset"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dist/index.html",
+			"settings":
+			{
+				"buffer_size": 4079,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"page",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"node",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"npm",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 323.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/osk/_mine/resources/webdesign/HorizontalSlideOutMenu/index.html",
+		"/Applications/MAMP/htdocs/oskdesign/img/6.png",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Applications/MAMP/htdocs/oskdesign/js/menu-horizontal.cess",
+		"/Applications/MAMP/htdocs/oskdesign/css/default.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/component.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/variables.less",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Less2Css/README.md",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Less2Css/Default (OSX).sublime-keymap",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/oskdesign/js/less-1.3.3.min.js",
+		"/Applications/MAMP/htdocs/oskdesign/less/mixins.less",
+		"/Applications/MAMP/htdocs/oskdesign/less/type.less",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Applications/MAMP/htdocs/oskdesign/work.html",
+		"/Applications/MAMP/htdocs/oskdesign/less/fonts.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/utilities.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/site.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/bootstrap-responsive.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/navbar.less",
+		"/Applications/MAMP/htdocs/oskdesign/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/bootstrap.min.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/responsive.less",
+		"/Applications/MAMP/htdocs/oskdesign/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/oskdesign/css/reset.less.css",
+		"/Users/osk/www/segurosdigitales/segurosdigitales/static/styles/bootstrap/grid.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/oskdesign",
+			"span6",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"images",
+			"amigos",
+			"bpm",
+			"no-touch",
+			"class",
+			"@opp",
+			".looping",
+			"loopingClass940",
+			"@opp940",
+			"<li>Todas</li>\n              <li>UX</li>\n              <li>Diseño web</li>\n              <li>Arquietectura de información</li>\n              <li>Diseño de Aplicaciones móviles</li>\n              <li>Impresos</li>\n              <li>Identidad Gráfica</li>\n              <li>Fotografía</li>\n            </ul>",
+			"refreshStyles()",
+			"refreshStyles",
+			"refres",
+			"line",
+			"primar",
+			"endColo",
+			"hover",
+			"padding: 40",
+			"responsive.less",
+			"variables",
+			"mixins",
+			"oskdesign.less",
+			"responsive.less",
+			"responsive",
+			"button",
+			"variables.less",
+			"variables",
+			"varia",
+			"padding: 70px 0 80px;\n<a href=\"#\" class=\"btn btn-primary\">Ver proyectos</a>",
+			"radius",
+			"radius----",
+			"radius",
+			"h3",
+			"http://placehold.it/100x100",
+			"span4",
+			".navbar",
+			"body",
+			"fixed",
+			"body",
+			"conta",
+			"heading",
+			"headings",
+			"body",
+			"base-url",
+			"css-url",
+			"Helvetica",
+			"css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<!-- <a href=\"#\" class=\"btn btn-primary\">Ver proyectos</a> -->",
+			"<!-- <a href=\"#\" class=\"btn btn-primary\">Ver proyectos</a> -- >",
+			"h2",
+			"img/icon-.png",
+			"span6",
+			"",
+			"span6",
+			"css-url",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dist/index.html",
+					"settings":
+					{
+						"buffer_size": 4079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.737733839594,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				".sublie",
+				"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings"
+			],
+			[
+				"mixins",
+				"less/mixins.less"
+			],
+			[
+				"res",
+				"less/responsive.less"
+			],
+			[
+				"utili",
+				"less/utilities.less"
+			],
+			[
+				"varia",
+				"less/variables.less"
+			],
+			[
+				"lay",
+				"less/layout.less"
+			],
+			[
+				"fonts",
+				"less/fonts.less"
+			],
+			[
+				"respon",
+				"less/responsive.less"
+			],
+			[
+				"site",
+				"less/site.less"
+			],
+			[
+				".js",
+				"js/less-1.3.3.min.js"
+			],
+			[
+				"boot",
+				"css/bootstrap.min.css"
+			],
+			[
+				"typ",
+				"less/type.less"
+			],
+			[
+				"mix",
+				"less/mixins.less"
+			],
+			[
+				"mixin",
+				"less/mixins.less"
+			],
+			[
+				"boo",
+				"css/bootstrap.css"
+			],
+			[
+				"responsive",
+				"less/responsive.less"
+			],
+			[
+				"butt",
+				"less/buttons.less"
+			],
+			[
+				"nav",
+				"less/navbar.less"
+			],
+			[
+				"bootstra",
+				"css/bootstrap.min.css"
+			],
+			[
+				"var",
+				"less/variables.less"
+			],
+			[
+				"rese",
+				"oskdesign/css/reset.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"requi",
+				"segurosdigitales/deploy/requirements.txt"
+			],
+			[
+				"home",
+				"main/templates/main/home.html"
+			],
+			[
+				"appl",
+				"applications/templates/applications/cars/forms/v0/apply.html"
+			],
+			[
+				"variables",
+				"segurosdigitales/static/styles/bootstrap/variables.less"
+			],
+			[
+				"seg",
+				"segurosdigitales/static/styles/segurosdigitales.less"
+			],
+			[
+				"font",
+				"segurosdigitales/static/styles/bootstrap/font-awesome.less"
+			],
+			[
+				".less",
+				"segurosdigitales/static/styles/bootstrap/grid.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}
