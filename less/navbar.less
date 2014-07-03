@@ -9,9 +9,11 @@
 // other navbar variations.
 
 .navbar {
+  font-family: @font-family-sans-serif;
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
-  margin-bottom: @navbar-margin-bottom;
+  //margin-bottom: @navbar-margin-bottom;
+  margin-bottom: 0; 
   //border: 1px solid transparent;
 
   // Prevent floats from breaking the navbar
@@ -409,6 +411,7 @@
       &:focus {
         color: @navbar-default-link-active-color;
         background-color: @navbar-default-link-active-bg;
+        border-bottom: 1px dotted @brand-primary;
       }
     }
     > .disabled > a {

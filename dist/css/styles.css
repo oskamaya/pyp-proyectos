@@ -1,16 +1,34 @@
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
 header#our-company {
   background-image: url("../images/bg-our-company.jpg");
   height: 300px;
   color: #eeeeee;
-}
-header#our-company:after {
-  color: #33427d;
+  padding-top: 50px;
 }
 header h1 {
   font-family: 'museo_sans100';
-  font-size: 3.750em;
+  font-size: 4em;
 }
 header h2 {
   font-family: 'museo_sans100';
   font-size: 1.500em;
+  line-height: 1.500em;
+}
+header + .container > .lead {
+  padding: 20px 0;
+  color: #235080;
+}
+div#our-goals h2 {
+  color: #77b99b;
+  text-align: center;
+  padding: 20px 0;
+}
+div#our-goals em {
+  color: #235080;
+  font-weight: bold;
 }

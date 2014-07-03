@@ -1,21 +1,42 @@
 @import "variables.less";
 
+.right {
+    float: right;
+}
+.left {
+	float: left;
+}
+
 header {
 	&#our-company {
 		background-image: url("../images/bg-our-company.jpg");
 		height: 300px;
 		color: @gray-lighter;
-		&:after {
-			color: #33427d;	
-		}
+		padding-top: 50px;
 	}
 	h1 {
 		font-family: 'museo_sans100';
-		font-size: 3.750em;
+		font-size: 4em;
 	}
 	h2 {
 		font-family: 'museo_sans100';
 		font-size: 1.500em;
+		line-height: 1.500em;
+	}
+	+ .container > .lead {
+		padding: 20px 0;
+		color: @blueMain;
 	}
 
+}
+div#our-goals {
+	h2 {
+		color: @greenPYP;
+		text-align: center;
+		padding: 20px 0;
+	}
+	em {
+		color: @blueMain;
+		font-weight: bold;
+	}
 }

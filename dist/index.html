@@ -18,8 +18,9 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-default" role="navigation">
+    <!-- <div class="container"> starts container-->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -29,19 +30,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logo-pp.svg"></a>
+            <a href="#"><img src="images/logo-pp.svg"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Inicio</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Proyectos</a></li>
-              <li><a href="#">El Equipo</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">INICIO</a></li>
+              <li><a href="#">SERVICIOS</a></li>
+              <li><a href="#">PROYECTOS</a></li>
+              <li><a href="#">EL EQUIPO</a></li>
+              <li><a href="#">CONTACTO</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Seleccionar idioma <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -52,31 +51,37 @@
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
-      </nav>
-      <header id="our-company" class="text-center">
-        <h1>NUESTRA EMPRESA</h1>
-        <h2 class="col-md-10 col-md-offset-1">Nuestra empresa es reconocida en el sector de la construcción y de la ingeniería civil, como una empresa que genera en sus clientes respaldo, confianza y seguridad</h2>
-      </header>
-      <div class="lead">
-        <em>P&P Proyectos S.A.S. nace en 2013 como producto de la escisión de la firma de consultoría PCA Proyectistas Civiles Asociados, la cual se creó en 1981, siendo el Ingeniero Armando Palomino uno de sus socios fundadores. Actualmente P&P Proyectos S.A.S cuenta con una nómina directa de más de 50 empleados, y con más de 18 millones de m2 por proyectos ejecutados.</em>
       </div>
-      <div class="row">
+    </nav>
+    <header id="our-company" class="text-center">
+      <div class="container">
+        <h1>NUESTRA EMPRESA</h1>
+        <h2 class="col-md-10 col-md-offset-1">Nuestra empresa es reconocida en el sector de la construcción y de la ingeniería civil, como una empresa que genera en sus clientes respaldo, confianza y seguridad.</h2>
+      </div>
+    </header>
+
+    <!-- main container  -->
+    <div class="container">
+      <div class="lead text-center">
+        <em><b>P&P Proyectos S.A.S</b>. nace en 2013 como producto de la escisión de la firma de consultoría PCA Proyectistas Civiles Asociados, la cual se creó en 1981, siendo el <b>Ingeniero Armando Palomino</b> uno de sus socios fundadores. Actualmente <b>P&P Proyectos S.A.S</b> cuenta con una nómina directa de más de 50 empleados, y con más de <b>18 millones de m2 por proyectos ejecutados</b></em>
+      </div>
+      <div class="row" id="our-goals">
         <article class="col-md-4">
           <img src="holder.js/100%x200/vine">
-          <h4>NUESTRO OBJETO SOCIAL</h4>
+          <h2>NUESTRO<br> OBJETO SOCIAL</h2>
           <p>Nuestro objeto social es el ejercicio de la Ingeniería Civil y Arquitectura en estudios, diseños, asesorías e interventorías de diseño y construcción.</p>
-          <p>Es la filosofía de P&P Proyectos de materializar las soluciones más creativas y económicamente eficientes para cumplir con las necesidades de nuestros clientes.</p>
+          <p>Es la filosofía de P&P Proyectos de <em>materializar las soluciones más creativas y económicamente eficientes para cumplir con las necesidades de nuestros clientes.</em></p>
         </article>
         <article class="col-md-4">
           <img src="holder.js/100%x200/vine">
-          <h4>NUESTRA META: SER LOS MEJORES</h4>
+          <h2>NUESTRA META:<br> SER LOS MEJORES</h2>
           <p>Sus principales directivos, encabezados por el ingeniero Armando Palomino Infante, M.Sc., D.I.C., son Ingenieros Civiles con Maestría en Estructuras, profesores universitarios y siempre motivados por la satisfacción del cliente y el mejoramiento continuo al interior de la compañía.</p>
         </article>
         <article class="col-md-4">
           <img src="holder.js/100%x200/vine">
-          <h4>SIGUIENDO ESTÁNDARES DE CALIDAD</h4>
+          <h2>SIGUIENDO ESTÁNDARES DE CALIDAD</h2>
           <p>Sus directivos han intervenido en la elaboración de las Normas de Diseño Sismo Resistente nacionales desde 1984 cuando apareció la primera de ellas.</p>
-          <p>Hoy en día hacen parte de las Juntas Directivas de varias organizaciones gremiales nacionales asociadas con la Ingeniería Civil, Estructural y Sísmica, así como encabezan un comité de ISO-Internacional relacionado con estructuras de concreto.</p>
+          <p><em>Hoy en día hacen parte de las Juntas Directivas de varias organizaciones gremiales nacionales asociadas con la Ingeniería Civil, Estructural y Sísmica, así como encabezan un comité de ISO-Internacional relacionado con estructuras de concreto.</em></p>
         </article>
       </div>
       <div class="row" id="our_experience">
@@ -105,24 +110,27 @@
         <div class="col-md-2"><img src="holder.js/100%x65/gray"></div>
         <div class="col-md-2"><img src="holder.js/100%x65/gray"></div>
       </div>
-      <div class="row" id="write_us">
-        <div class="col-md-6 text-right"><h3>¿Tiene alguna pregunta o sugerencia ?</h3></div>
-        <div class="col-md-6 text-left"><button type="button" class="btn btn-primary btn-lg">Escríbanos</button></div>
-      </div>
-      <footer class="row">
-        <div class="col-md-1">
-          <img src="holder.js/35x35/gray">
-          <img src="holder.js/35x35/gray">
-        </div>
-        <div class="col-md-3">
-          <h4>Carrera 7 No. 75-51 Oficina 302</h4>
-          <h4>PBX 519-0905, Bogotá, DC, Colombia</h4>
-        </div>
-        <div class="col-md-8"><img src="images/bg-footer.svg"></div>
-      </footer>
     </div>
-    
 
+    <div class="row" id="write_us">
+      <div class="col-md-6 text-right"><h3>¿Tiene alguna pregunta o sugerencia ?</h3></div>
+      <div class="col-md-6 text-left"><button type="button" class="btn btn-primary btn-lg">Escríbanos</button></div>
+    </div>
+
+    <!-- here ends main container -->
+    
+    <footer class="row">
+      <div class="col-md-1">
+        <img src="holder.js/35x35/gray">
+        <img src="holder.js/35x35/gray">
+      </div>
+      <div class="col-md-3">
+        <h4>Carrera 7 No. 75-51 Oficina 302</h4>
+        <h4>PBX 519-0905, Bogotá, DC, Colombia</h4>
+      </div>
+      <div class="col-md-8"><img src="images/bg-footer.svg"></div>
+    </footer>
+    <!-- </div> end container-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
