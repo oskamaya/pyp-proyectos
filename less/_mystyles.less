@@ -7,19 +7,24 @@
 	float: left;
 }
 
+// logo styles
+
+.navbar-brand {
+	height: 69px;
+    padding: 18px 15px;
+}
+
 header {
 	&#our-company {
-		background-image: url("../images/bg-our-company.jpg");
+		background: url("../images/bg-our-company.jpg") center no-repeat;
 		height: 300px;
 		color: @gray-lighter;
 		padding-top: 50px;
 	}
 	h1 {
-		font-family: 'museo_sans100';
 		font-size: 4em;
 	}
 	h2 {
-		font-family: 'museo_sans100';
 		font-size: 1.500em;
 		line-height: 1.500em;
 	}
@@ -40,3 +45,52 @@ div#our-goals {
 		font-weight: bold;
 	}
 }
+div#our_experience {
+	background: url('../images/bg-our-exp.jpg') no-repeat center;
+	color: @gray-lighter;
+	padding: 30px 10px;
+	article:first-child {
+		font-family: "museo_sans100" Helvetica, Arial, sans-serif;
+		font-size: @font-size-large;
+		h1 {
+			margin-bottom: 30px;
+			color: @greenPYP;
+		}
+	}
+	.lead {
+		color: @blueMain;
+		font-size: @font-size-large;
+	}
+}
+div#our_clients {
+	h1 {
+		margin-bottom: 30px;
+		color: @greenPYP;
+	}
+}
+div#write_us {
+	margin: 40px 0;
+	h3 {
+		display: inline-block;
+		margin-right: 30px;
+	}
+}
+
+footer {
+	background: url('../images/bg-footer.svg') no-repeat bottom right;
+	min-height: 300px;
+
+	& img[src*=".svg"] {
+		margin-right: 20px;
+	}
+
+	#add_info {
+		> h5 {
+			margin-top: 0;
+		} 
+	}
+}
+
+
+
+

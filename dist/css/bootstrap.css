@@ -375,7 +375,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-family: "museo_sans100", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -2007,7 +2007,7 @@ select[multiple].input-lg {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
-  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-family: "museo_sans500", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
@@ -3653,7 +3653,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-left-radius: 0;
 }
 .navbar {
-  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-family: "museo_sans500", Helvetica, Arial, sans-serif;
   position: relative;
   min-height: 120px;
   margin-bottom: 0;

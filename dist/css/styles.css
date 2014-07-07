@@ -4,18 +4,20 @@
 .left {
   float: left;
 }
+.navbar-brand {
+  height: 69px;
+  padding: 18px 15px;
+}
 header#our-company {
-  background-image: url("../images/bg-our-company.jpg");
+  background: url("../images/bg-our-company.jpg") center no-repeat;
   height: 300px;
   color: #eeeeee;
   padding-top: 50px;
 }
 header h1 {
-  font-family: 'museo_sans100';
   font-size: 4em;
 }
 header h2 {
-  font-family: 'museo_sans100';
   font-size: 1.500em;
   line-height: 1.500em;
 }
@@ -31,4 +33,42 @@ div#our-goals h2 {
 div#our-goals em {
   color: #235080;
   font-weight: bold;
+}
+div#our_experience {
+  background: url('../images/bg-our-exp.jpg') no-repeat center;
+  color: #eeeeee;
+  padding: 30px 10px;
+}
+div#our_experience article:first-child {
+  font-family: "museo_sans100" Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+div#our_experience article:first-child h1 {
+  margin-bottom: 30px;
+  color: #77b99b;
+}
+div#our_experience .lead {
+  color: #235080;
+  font-size: 18px;
+}
+div#our_clients h1 {
+  margin-bottom: 30px;
+  color: #77b99b;
+}
+div#write_us {
+  margin: 40px 0;
+}
+div#write_us h3 {
+  display: inline-block;
+  margin-right: 30px;
+}
+footer {
+  background: url('../images/bg-footer.svg') no-repeat bottom right;
+  min-height: 300px;
+}
+footer img[src*=".svg"] {
+  margin-right: 20px;
+}
+footer #add_info > h5 {
+  margin-top: 0;
 }
