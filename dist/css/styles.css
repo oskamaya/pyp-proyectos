@@ -22,8 +22,11 @@ header h2 {
   line-height: 1.500em;
 }
 header + .container > .lead {
-  padding: 20px 0;
+  padding: 40px 0 0 0;
   color: #235080;
+}
+div#our-goals {
+  margin: 40px 0;
 }
 div#our-goals h2 {
   color: #77b99b;
@@ -35,6 +38,7 @@ div#our-goals em {
   font-weight: bold;
 }
 div#our_experience {
+  margin: 40px 0;
   background: url('../images/bg-our-exp.jpg') no-repeat center;
   color: #eeeeee;
   padding: 30px 10px;
@@ -47,13 +51,32 @@ div#our_experience article:first-child h1 {
   margin-bottom: 30px;
   color: #77b99b;
 }
+div#our_experience article:nth-child(2) {
+  padding: 0 30px 0 60px;
+}
+div#our_experience article:nth-child(2) p.lead {
+  margin-top: 88px;
+}
 div#our_experience .lead {
   color: #235080;
   font-size: 18px;
 }
+div#our_clients {
+  margin: 40px 0;
+}
 div#our_clients h1 {
   margin-bottom: 30px;
   color: #77b99b;
+}
+div#our_clients img {
+  max-height: 75px;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(desaturate.svg#greyscale);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
 div#write_us {
   margin: 40px 0;
@@ -70,5 +93,7 @@ footer img[src*=".svg"] {
   margin-right: 20px;
 }
 footer #add_info > h5 {
+  font-family: "museo_sans900" Helvetica, Arial, sans-serif;
+  color: #235080;
   margin-top: 0;
 }

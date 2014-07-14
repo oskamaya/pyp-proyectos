@@ -172,6 +172,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/images\/amarilo-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17981,
+		"inputAbbreviatedPath": "\/dist\/images\/amarilo-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/amarilo-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/arq-concr-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24079,
+		"inputAbbreviatedPath": "\/dist\/images\/arq-concr-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/arq-concr-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/bg-our-company.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -179,6 +201,39 @@
 		"initialSize": 79021,
 		"inputAbbreviatedPath": "\/dist\/images\/bg-our-company.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/bg-our-company.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/bg-our-exp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148998,
+		"inputAbbreviatedPath": "\/dist\/images\/bg-our-exp.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/bg-our-exp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/cusezar-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3874,
+		"inputAbbreviatedPath": "\/dist\/images\/cusezar-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/cusezar-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/prabyc-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10841,
+		"inputAbbreviatedPath": "\/dist\/images\/prabyc-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/prabyc-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -209,6 +264,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/js\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/dist\/js\/min\/bootstrap.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/js\/holder.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/holder.js",
+		"outputAbbreviatedPath": "\/dist\/js\/min\/holder-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
