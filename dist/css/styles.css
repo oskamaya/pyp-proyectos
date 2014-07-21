@@ -189,7 +189,8 @@ footer #cont-bot .row {
   margin-bottom: 20px;
 }
 footer #add_info > h5 {
-  font-family: "museo_sans900" Helvetica, Arial, sans-serif;
+  font-family: "museo_sans" Helvetica, Arial, sans-serif;
+  font-weight: 900;
   color: #235080;
   margin-top: 0;
 }
