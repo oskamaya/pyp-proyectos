@@ -8,6 +8,15 @@
   height: 69px;
   padding: 18px 15px;
 }
+#sel-lang {
+  margin-top: 40px;
+  border-left: 1px solid #eeeeee;
+  padding-left: 10px;
+}
+#sel-lang label {
+  font-weight: normal;
+  margin-right: 10px;
+}
 header#our-company {
   background: url("../images/bg-our-company.jpg") center no-repeat;
   height: 300px;
@@ -16,14 +25,17 @@ header#our-company {
 }
 header h1 {
   font-size: 4em;
+  color: white;
 }
 header h2 {
   font-size: 1.500em;
   line-height: 1.500em;
+  color: white;
 }
 header + .container > .lead {
   padding: 40px 0 0 0;
   color: #235080;
+  font-size: 1.35em;
 }
 div#our-goals {
   margin: 40px 0;
@@ -39,13 +51,14 @@ div#our-goals em {
 }
 div#our_experience {
   margin: 40px 0;
-  background: url('../images/bg-our-exp.jpg') no-repeat center;
+  background: url('../images/bg-our-exp.jpg') no-repeat top center;
   color: #eeeeee;
   padding: 30px 10px;
 }
 div#our_experience article:first-child {
-  font-family: "museo_sans100" Helvetica, Arial, sans-serif;
+  font-family: "museo_sans" Helvetica, Arial, sans-serif;
   font-size: 18px;
+  font-weight: 100;
 }
 div#our_experience article:first-child h1 {
   margin-bottom: 30px;
@@ -78,19 +91,102 @@ div#our_clients img {
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
+div#our_clients div#first-row {
+  margin: 40px 0;
+}
 div#write_us {
   margin: 40px 0;
 }
-div#write_us h3 {
+div#write_us div#cont-1 {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+div#write_us div#cont-1 hr {
+  margin: 5px;
+}
+div#write_us div#cont-1 h3 {
   display: inline-block;
-  margin-right: 30px;
+  margin: 30px 30px 30px 0;
+}
+div#our_services img[src*="arrow"] {
+  margin: 40px auto;
+  display: block;
+}
+div#our_services .row {
+  margin-bottom: 20px;
+}
+div#our_services .row span {
+  width: 40px;
+  display: block;
+  border-top: double #999999;
+}
+div#our_services .row h4 {
+  font-family: 'museo_sans';
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #235080;
+}
+div#our_projects img[src*="arrow"] {
+  margin: 40px auto;
+  display: block;
+}
+div#our_projects .row div[id*="pro-"] {
+  margin-bottom: 30px;
+  position: relative;
+  cursor: pointer;
+}
+div#our_projects .row div[id*="pro-"] span {
+  position: absolute;
+  top: 0;
+  background-color: rgba(51, 67, 125, 0.8);
+  opacity: 0;
+  width: 263px;
+  height: 100%;
+  z-index: 100;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+div#our_projects .row div[id*="pro-"] span h4,
+div#our_projects .row div[id*="pro-"] span p {
+  color: white;
+  text-align: center;
+}
+div#our_projects .row div[id*="pro-"] span h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin-bottom: 30px;
+}
+div#our_projects .row div[id*="pro-"] span p {
+  font-family: 'museo_sans';
+  font-weight: 100;
+}
+div#our_projects .row div[id*="pro-"] span a {
+  color: #77b99b;
+  font-style: italic;
+  display: block;
+  text-align: center;
+  font-size: 1.35em;
+}
+div#our_projects .row div[id*="pro-"]:hover span {
+  opacity: 1;
 }
 footer {
   background: url('../images/bg-footer.svg') no-repeat bottom right;
-  min-height: 300px;
 }
 footer img[src*=".svg"] {
   margin-right: 20px;
+}
+footer #cont-bot {
+  min-height: 260px;
+  position: relative;
+}
+footer #cont-bot .row {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
 }
 footer #add_info > h5 {
   font-family: "museo_sans900" Helvetica, Arial, sans-serif;

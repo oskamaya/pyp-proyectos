@@ -17,9 +17,9 @@
 @blueMain:				#235080;
 @blueLight:				#2c6099;
 @blueDark:				#235080;
-@VioletMain:			#235080;
-@VioletLight:			#235080;
-@VioletDark:			#235080;
+@purpleMain:			#235080;
+@purpleLight:			#235080;
+@purpleDark:			#235080;
 @yellowPYP:				#b6a656;
 @greenPYP:				#77b99b;
 
@@ -49,7 +49,7 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "museo_sans500", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "museo_sans", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -59,7 +59,7 @@
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h1:            floor((@font-size-base * 3)); // ~42px
 @font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
 @font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
 @font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
@@ -67,15 +67,15 @@
 @font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
-@line-height-base:        1.428571429; // 20/14
+@line-height-base:        1.628571429; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    "museo_sans100", Helvetica, Arial, sans-serif;
-@headings-font-weight:    500;
+@headings-font-family:    "museo_sans", Helvetica, Arial, sans-serif;
+@headings-font-weight:    100;
 @headings-line-height:    1.1;
-@headings-color:          inherit;
+@headings-color:          @greenPYP; //inherit;
 
 
 //-- Iconography

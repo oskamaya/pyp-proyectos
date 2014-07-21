@@ -15,6 +15,17 @@
     padding: 18px 15px;
 }
 
+// select language option
+#sel-lang {
+	margin-top: 40px;
+	border-left: 1px solid @gray-lighter;
+	padding-left: 10px;
+	label {
+		font-weight: normal;
+		margin-right: 10px;
+	}
+}
+
 header {
 	&#our-company {
 		background: url("../images/bg-our-company.jpg") center no-repeat;
@@ -24,14 +35,17 @@ header {
 	}
 	h1 {
 		font-size: 4em;
+		color: white;
 	}
 	h2 {
 		font-size: 1.500em;
 		line-height: 1.500em;
+		color: white;
 	}
 	+ .container > .lead {
 		padding: 40px 0 0 0;
 		color: @blueMain;
+		font-size: 1.35em;
 	}
 
 }
@@ -49,13 +63,14 @@ div#our-goals {
 }
 div#our_experience {
 	margin: 40px 0;
-	background: url('../images/bg-our-exp.jpg') no-repeat center;
+	background: url('../images/bg-our-exp.jpg') no-repeat top center;
 	color: @gray-lighter;
 	padding: 30px 10px;
 	article{
 		&:first-child {
-			font-family: "museo_sans100" Helvetica, Arial, sans-serif;
+			font-family: "museo_sans" Helvetica, Arial, sans-serif;
 			font-size: @font-size-large;
+			font-weight: 100;
 			h1 {
 				margin-bottom: 30px;
 				color: @greenPYP;
@@ -85,23 +100,117 @@ div#our_clients {
 		margin: 0 auto;
 		.desaturate(100%);
 		.opacity(.4);
-
+	}
+	div#first-row {
+		margin: 40px 0;
 	}
 }
 div#write_us {
 	margin: 40px 0;
-	h3 {
-		display: inline-block;
-		margin-right: 30px;
+	div#cont-1 {
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+		text-align: center;
+		hr {
+			margin: 5px;
+		}
+		h3 {
+			display: inline-block;
+			margin: 30px 30px 30px 0;
+		}
+	}
+}
+div#our_services {
+
+	& img[src*="arrow"] {
+		margin: 40px auto;
+		display: block;
+	}
+
+	.row {
+		margin-bottom: 20px;
+		span {
+			width: 40px;
+			display: block;
+			border-top: double @gray-light;
+		}
+		h4 {
+			font-family: 'museo_sans';
+			font-weight: 500;
+			line-height: 1.4em;
+			color: @blueDark;
+		}
+	}
+}
+
+div#our_projects {
+
+	& img[src*="arrow"] {
+		margin: 40px auto;
+		display: block;
+	}
+	.row {
+		& div[id*="pro-"] {
+		margin-bottom: 30px;
+		position: relative;
+		cursor: pointer;
+			span {
+				position: absolute;
+				top: 0;
+				background-color: rgba(51, 67, 125, 0.8);
+				opacity: 0;
+				width: 263px;
+				height: 100%;
+				z-index: 100;
+				.transition(opacity 0.35s;);
+				h4, p {
+					color: white;
+					text-align: center;
+				}
+				h4 {
+					font-weight: 500;
+					text-transform: uppercase;
+					line-height: 1.4em;
+					margin-bottom: 30px;
+				}
+				p {
+					font-family: 'museo_sans';
+					font-weight: 100;
+				}
+				a {
+					color: @greenPYP;
+					//font-size: 16px;
+					font-style: italic;
+					text-align: center;
+					display: block;
+					text-align: center;
+					font-size: 1.35em;
+				}
+
+			}
+			&:hover span {
+				opacity: 1;
+			}
+		}
 	}
 }
 
 footer {
 	background: url('../images/bg-footer.svg') no-repeat bottom right;
-	min-height: 300px;
 
 	& img[src*=".svg"] {
 		margin-right: 20px;
+	}
+
+	#cont-bot {
+		min-height: 260px;
+		position: relative;
+		.row {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			margin-bottom: 20px;
+		}
 	}
 
 	#add_info {

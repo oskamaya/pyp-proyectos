@@ -216,6 +216,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/conconcreto-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14129,
+		"inputAbbreviatedPath": "\/dist\/images\/conconcreto-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/conconcreto-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/consult-colom-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16268,
+		"inputAbbreviatedPath": "\/dist\/images\/consult-colom-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/consult-colom-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/corferias-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15750,
+		"inputAbbreviatedPath": "\/dist\/images\/corferias-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/corferias-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/cusezar-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -223,6 +256,61 @@
 		"initialSize": 3874,
 		"inputAbbreviatedPath": "\/dist\/images\/cusezar-logo.png",
 		"outputAbbreviatedPath": "\/dist\/images\/cusezar-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/img-goal1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44408,
+		"inputAbbreviatedPath": "\/dist\/images\/img-goal1.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/img-goal1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/img-goal2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34667,
+		"inputAbbreviatedPath": "\/dist\/images\/img-goal2.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/img-goal2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/img-goal3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26636,
+		"inputAbbreviatedPath": "\/dist\/images\/img-goal3.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/img-goal3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/mallplaza-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12891,
+		"inputAbbreviatedPath": "\/dist\/images\/mallplaza-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/mallplaza-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/oxy-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7334,
+		"inputAbbreviatedPath": "\/dist\/images\/oxy-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/oxy-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -301,6 +389,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/servicios.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/servicios.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/grunt\/bs-glyphicons-data-generator.js": {
 		"fileType": 64,
@@ -733,7 +830,7 @@
 		"outputAbbreviatedPath": "\/dist\/css\/bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
