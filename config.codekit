@@ -260,6 +260,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/dwn-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1804,
+		"inputAbbreviatedPath": "\/dist\/images\/dwn-arrow.png",
+		"outputAbbreviatedPath": "\/dist\/images\/dwn-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/img-goal1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -322,6 +333,149 @@
 		"initialSize": 10841,
 		"inputAbbreviatedPath": "\/dist\/images\/prabyc-logo.png",
 		"outputAbbreviatedPath": "\/dist\/images\/prabyc-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/pro_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37244,
+		"inputAbbreviatedPath": "\/dist\/images\/pro_1.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/pro_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73915,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_1.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102087,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_10.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90296,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_11.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82737,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_12.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81448,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_2.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103603,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_3.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88045,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_4.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110661,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_5.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81026,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_6.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72013,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_7.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108682,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_8.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85972,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_9.png",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_9.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -389,6 +543,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/proy_detalle.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/proy_detalle.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/proyectos.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/proyectos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/dist\/servicios.html": {
 		"fileType": 8192,
@@ -770,7 +942,7 @@
 		"outputAbbreviatedPath": "\/dist\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
@@ -830,7 +1002,7 @@
 		"outputAbbreviatedPath": "\/dist\/css\/bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 2,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
