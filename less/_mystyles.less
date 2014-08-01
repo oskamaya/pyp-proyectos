@@ -68,7 +68,7 @@ div#our_experience {
 	padding: 30px 10px;
 	article{
 		&:first-child {
-			font-family: "museo_sans" Helvetica, Arial, sans-serif;
+			font-family: @font-family-sans-serif;
 			font-size: @font-size-large;
 			font-weight: 100;
 			h1 {
@@ -135,7 +135,7 @@ div#our_services {
 			border-top: double @gray-light;
 		}
 		h4 {
-			font-family: 'museo_sans';
+			font-family: @font-family-sans-serif;
 			font-weight: 500;
 			line-height: 1.4em;
 			color: @blueDark;
@@ -154,7 +154,7 @@ div#our_projects {
 		margin-bottom: 30px;
 		position: relative;
 		cursor: pointer;
-			span {
+			> span {
 				position: absolute;
 				top: 0;
 				background-color: rgba(51, 67, 125, 0.8);
@@ -171,25 +171,96 @@ div#our_projects {
 					font-weight: 500;
 					text-transform: uppercase;
 					line-height: 1.4em;
-					margin-bottom: 30px;
 				}
 				p {
-					font-family: 'museo_sans';
+					font-family: @font-family-sans-serif;
 					font-weight: 100;
 				}
 				a {
 					color: @greenPYP;
-					//font-size: 16px;
+					font-family: @font-family-serif;
+					font-size: 1.25em;
 					font-style: italic;
-					text-align: center;
-					display: block;
-					text-align: center;
-					font-size: 1.35em;
+					position: absolute;
+					bottom: 10px;
+					left: 49px;
+
+				}
+				span#line {
+					display:block;
+					height: 3px;
+					width: 60px;
+					background: white;
+					margin: 0 auto;
+
 				}
 
 			}
 			&:hover span {
 				opacity: 1;
+			}
+		}
+	}
+}
+
+div#proj_detail {
+	h3 {
+		text-transform: uppercase;
+		font-weight: 500;
+		color: @blueMain;
+	}
+	div#img-project {
+		margin: 20px 0;
+	}
+	div#proj-desc {
+		h3 {
+			margin: 0 0 30px 0;
+		}
+		p {
+			&.lead {
+				color: @purpleLight;
+				font-size: 1.25em;
+				line-height: 1.5em;
+			}
+		}
+		span {
+			display:block;
+			height: 3px;
+			width: 90px;
+			background: @gray-lighter;
+			margin-bottom: 30px,
+		}
+	}
+	div#thumbs {
+		img {
+			margin-bottom: 20px;
+		}
+	}
+	div#testimonials {
+		div#quote {
+			p {
+				margin-top: 20px;
+				font-style: italic;
+				font-size: 1.25em;
+				line-height: 1.5em;
+			}
+			blockquote {
+				margin: 0 0 22px;
+				border-top: 3px solid lighten(@blueLight, 50%);
+				display: inline-block;
+				padding: 0;
+				border-left: 0;
+				h5 {
+					color: @blueMain;
+					&:nth-child(1) {
+						text-transform: uppercase;
+						font-weight: 900;
+						margin-bottom: 5px;
+					}
+					&:nth-child(2) {
+						margin-top: 5px;
+					}
+				}
 			}
 		}
 	}
@@ -215,7 +286,7 @@ footer {
 
 	#add_info {
 		> h5 {
-			font-family: "museo_sans" Helvetica, Arial, sans-serif;
+			font-family: @font-family-sans-serif;
 			font-weight: 900;
 			color: @blueDark;
 			margin-top: 0;
