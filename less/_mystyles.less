@@ -192,52 +192,55 @@ div#our_projects {
 		& div[id*="pro-"] {
 		margin-bottom: 30px;
 		position: relative;
-		cursor: pointer;
-			> span {
-				position: absolute;
-				top: 0;
-				background-color: rgba(51, 67, 125, 0.8);
-				opacity: 0;
-				width: 263px;
-				height: 100%;
-				z-index: 100;
-				.transition(opacity 0.35s;);
-				h4, p {
-					color: white;
-					text-align: center;
-				}
-				h4 {
-					font-weight: 500;
-					text-transform: uppercase;
-					line-height: 1.4em;
-				}
-				p {
-					font-family: @font-family-sans-serif;
-					font-weight: 100;
-				}
-				a {
-					color: @greenPYP;
-					font-family: @font-family-serif;
-					font-size: 1.25em;
-					font-style: italic;
+		//cursor: pointer;
+			a {
+				> span {
 					position: absolute;
-					bottom: 10px;
-					left: 49px;
+					top: 0;
+					background-color: rgba(51, 67, 125, 0.8);
+					opacity: 0;
+					width: 263px;
+					height: 100%;
+					z-index: 100;
+					.transition(opacity 0.35s;);
+					h4, p {
+						color: white;
+						text-align: center;
+					}
+					h4 {
+						font-weight: 500;
+						text-transform: uppercase;
+						line-height: 1.4em;
+					}
+					p {
+						font-family: @font-family-sans-serif;
+						font-weight: 100;
+					}
+					span.sp-link {
+						color: @greenPYP;
+						font-family: @font-family-serif;
+						font-size: 1.25em;
+						font-style: italic;
+						position: absolute;
+						bottom: 10px;
+						left: 49px;
+					}
+					span#line {
+						position: relative;
+						display:block;
+						height: 3px;
+						width: 60px;
+						background: white;
+						margin: 0 auto;
+
+					}
 
 				}
-				span#line {
-					display:block;
-					height: 3px;
-					width: 60px;
-					background: white;
-					margin: 0 auto;
-
+				&:hover span {
+					opacity: 1;
 				}
-
 			}
-			&:hover span {
-				opacity: 1;
-			}
+			
 		}
 		&.cl-text {
 			p {
