@@ -1,11 +1,39 @@
 @import "variables.less";
 @import "mixins.less";
 
-.right {
-    float: right;
+//defining 5 columns
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-.left {
-	float: left;
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (@screen-sm-min) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: @screen-md-min) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: @screen-lg-min) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 // logo styles
@@ -27,11 +55,13 @@
 }
 
 header {
+	height: 300px;
+	padding-top: 50px;
 	&#our-company {
-		background: url("../images/bg-our-company.jpg") center no-repeat;
-		height: 300px;
+		background: url("../images/bg-our-company.jpg") top center no-repeat;
+		background-size: 100% auto;
 		color: @gray-lighter;
-		padding-top: 50px;
+		//padding-top: 50px;
 	}
 	h1 {
 		font-size: 4em;
@@ -47,6 +77,14 @@ header {
 		color: @blueMain;
 		font-size: 1.35em;
 	}
+	&#staff-head {
+		background: url("../images/bg-our-staff.jpg") top center no-repeat;
+		background-size: 100% auto;
+		h1, h2 {
+			color: @blueLight;
+		}
+	}
+
 
 }
 div#our-goals {
@@ -67,10 +105,14 @@ div#our_experience {
 	color: @gray-lighter;
 	padding: 30px 10px;
 	article{
+		p {
+			//font-size: @font-size-large;
+			color: @gray-lighter;
+		}
 		&:first-child {
-			font-family: @font-family-sans-serif;
-			font-size: @font-size-large;
-			font-weight: 100;
+			//font-family: @font-family-sans-serif;
+			//font-size: @font-size-large;
+			//font-weight: 100;
 			h1 {
 				margin-bottom: 30px;
 				color: @greenPYP;
@@ -79,13 +121,10 @@ div#our_experience {
 		&:nth-child(2) {
 			padding: 0 30px 0 60px;
 			p.lead {
-				margin-top: 88px;
+				margin-top: 98px;
+				color: @blueMain;
 			} 
 		}
-	}
-	.lead {
-		color: @blueMain;
-		font-size: @font-size-large;
 	}
 }
 div#our_clients {
@@ -200,6 +239,12 @@ div#our_projects {
 				opacity: 1;
 			}
 		}
+		&.cl-text {
+			p {
+				color: @blueMain;
+				text-align: center;
+			}
+		}
 	}
 }
 
@@ -266,6 +311,130 @@ div#proj_detail {
 	}
 }
 
+div#our_staff {
+	p {
+		&.intro {
+			text-align: center;
+			font-size: 1.3em;
+		}
+	}
+	> div {
+		margin-bottom: 50px;
+		h2 {
+			text-align: center;
+		}
+		h3 {
+			color: @gray;
+			margin-bottom: 0;
+		}
+		h4 {
+			color: lighten(@gray-light, 20%);
+			font-family: @font-family-serif;
+			font-style: italic;
+			margin-top: 5px;
+		}
+		h5 {
+			line-height: 1.4em;
+		}
+		&#directors {
+			> div {
+				text-align: center;
+				h3 {
+					font-size: floor((@font-size-base * 2));
+				}
+			}
+			img {
+				max-width: 200px;
+			}
+		}
+		&#managers {
+			> div {
+			text-align: center;
+				h3 {
+					font-size: floor((@font-size-base * 1.3));
+				}
+				h4 {
+					font-size: floor((@font-size-base * 1.100));
+				}
+			}
+			img {
+				max-width: 150px;
+			}
+		}
+		&#engineers, &#drafters, &#adm-sell {
+			> div {
+			text-align: center;
+				h3 {
+					font-size: floor((@font-size-base * 1));
+				}
+				h4 {
+					font-size: floor((@font-size-base * 1));
+				}
+			}
+			img {
+				max-width: 100px;
+			}
+		}
+	}
+}
+
+// Contact 
+
+.nav-top {
+	z-index: 1000;
+}
+
+.wrap {
+	min-height: 100%;
+	position: relative;
+	margin-top: -@navbar-height;
+	padding-top: @navbar-height;
+
+	.main {
+		overflow: auto;
+		padding-bottom: 260px;
+		div#contact {
+			background: url('../images/bg-contact.jpg') no-repeat top center;
+			div#form-cont {
+				padding: 0 30px 30px;
+				background-color: rgba(255, 255, 255, 0.7);
+				h3 {
+					color: @purpleMain;
+				}
+				form {
+					margin-top: 30px;
+					label {
+						font-family: @font-family-sans-serif;
+						color: @purpleDark;
+					}
+				}
+			}
+			div#pp-info {
+				position: relative;
+				display: block;
+				div.pp-pin {
+					position: absolute;
+					left: 175px;
+					top: 56px;
+				}
+				.popover {
+					display: block;
+					top: 163px;
+					left: 139px;
+				}
+			}
+		}		
+	}
+	div.head-contact {
+		background-color: @gray-lighter;
+		min-height: 150px;
+		h1 {
+			font-size: 4em;
+			margin-top: 45px;
+		}
+	}
+}
+
 footer {
 	background: url('../images/bg-footer.svg') no-repeat bottom right;
 
@@ -280,7 +449,7 @@ footer {
 			position: absolute;
 			bottom: 0;
 			width: 100%;
-			margin-bottom: 20px;
+			//margin-bottom: 20px;
 		}
 	}
 
@@ -292,7 +461,16 @@ footer {
 			margin-top: 0;
 		} 
 	}
+	&.ft-bot {
+		position: relative;
+		margin-top: -260px; /* negative value of footer height */
+		//height: 260px;
+		clear:both;
+		//padding-top:20px;
+	} 
 }
+
+
 
 
 
