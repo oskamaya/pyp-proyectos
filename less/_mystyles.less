@@ -76,7 +76,7 @@ header {
 	}
 	h2 {
 		font-size: 1.500em;
-		line-height: 1.500em;
+		line-height: 1.5;
 		color: white;
 	}
 	+ .container > .lead {
@@ -183,7 +183,7 @@ div#our_services {
 		h4 {
 			font-family: @font-family-sans-serif;
 			font-weight: 500;
-			line-height: 1.4em;
+			line-height: 1.4;
 			color: @blueDark;
 		}
 	}
@@ -217,7 +217,7 @@ div#our_projects {
 					h4 {
 						font-weight: 500;
 						text-transform: uppercase;
-						line-height: 1.4em;
+						line-height: 1.4;
 					}
 					p {
 						font-family: @font-family-sans-serif;
@@ -276,7 +276,7 @@ div#proj_detail {
 			&.lead {
 				color: @purpleLight;
 				font-size: 1.25em;
-				line-height: 1.5em;
+				line-height: 1.5;
 			}
 		}
 		span {
@@ -298,7 +298,7 @@ div#proj_detail {
 				margin-top: 20px;
 				font-style: italic;
 				font-size: 1.25em;
-				line-height: 1.5em;
+				line-height: 1.5;
 			}
 			blockquote {
 				margin: 0 0 22px;
@@ -345,7 +345,7 @@ div#our_staff {
 			margin-top: 5px;
 		}
 		h5 {
-			line-height: 1.4em;
+			line-height: 1.4;
 		}
 		&#directors {
 			> div {
@@ -391,15 +391,51 @@ div#our_staff {
 
 div#profile-detail {
 	#pro-pic {
-		h2 {
-
+		img {
+			box-shadow: 0.3em 0.3em @gray-lighter;
 		}
-		h3 {
+		#pers-info {
+			h2 {
+				font-weight: 900;
+				color: @blueMain;
+				text-shadow: 0.1em 0.1em @gray-lighter;
+			}
+			h3 {
+				margin-top: 0;
+				color: @blueLight;
+			}	
+		}	
+	}
+	dl {
+		&#pro-info {
+			dt {
+				font-size: 1.25em;
+			}
+			dd {
+				color: lighten(@gray-light, 20%);
+				font-style: italic;
+				font-size: 1em;
+			}
+		}
+		dd {
+			margin-bottom: 20px;
 			
 		}
 	}
-	dd {
-		margin-bottom: 20px;
+	ul {
+		//padding-left: 0;
+		span {
+			margin-right: 5px;
+			color: @blueLight;
+		}
+		li {
+			ul {
+				padding-left:20px;
+				li {
+					list-style-type: none;
+				}
+			}
+		}
 	}
 
 }
