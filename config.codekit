@@ -29,6 +29,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/armando_palomino.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/armando_palomino.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/carlos_palomino.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/carlos_palomino.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/contacto.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -267,6 +285,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/cimento-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15027,
+		"inputAbbreviatedPath": "\/dist\/images\/cimento-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/cimento-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/colpatria-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9290,
+		"inputAbbreviatedPath": "\/dist\/images\/colpatria-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/colpatria-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/conconcreto-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -366,6 +406,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/forjar-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3105,
+		"inputAbbreviatedPath": "\/dist\/images\/forjar-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/forjar-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/img-goal1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -421,6 +472,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/marval-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28752,
+		"inputAbbreviatedPath": "\/dist\/images\/marval-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/marval-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/multiplo-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -428,6 +490,17 @@
 		"initialSize": 6661,
 		"inputAbbreviatedPath": "\/dist\/images\/multiplo-logo.png",
 		"outputAbbreviatedPath": "\/dist\/images\/multiplo-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/obycon-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6145,
+		"inputAbbreviatedPath": "\/dist\/images\/obycon-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/obycon-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -450,6 +523,17 @@
 		"initialSize": 2594,
 		"inputAbbreviatedPath": "\/dist\/images\/payc-logo.png",
 		"outputAbbreviatedPath": "\/dist\/images\/payc-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/pedrogomez-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23175,
+		"inputAbbreviatedPath": "\/dist\/images\/pedrogomez-logo.png",
+		"outputAbbreviatedPath": "\/dist\/images\/pedrogomez-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -670,6 +754,17 @@
 		"initialSize": 37194,
 		"inputAbbreviatedPath": "\/dist\/images\/pro_6.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/pro_6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/pro_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18598,
+		"inputAbbreviatedPath": "\/dist\/images\/pro_7.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/pro_7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

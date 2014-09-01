@@ -289,13 +289,15 @@
   filter: ~"alpha(opacity=@{opacity-ie})";
 }
 
-// DESATURATE
+// desaturate
 
 .desaturate(@desaturate) {
-  -webkit-filter: grayscale(@desaturate); -moz-filter: grayscale(@desaturate);
+  -webkit-filter: grayscale(@desaturate);
+  -moz-filter: grayscale(@desaturate);
   filter: grayscale(@desaturate);
   filter: url(desaturate.svg#greyscale);
 }
+
 
 // GRADIENTS
 // --------------------------------------------------
