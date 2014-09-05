@@ -461,17 +461,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dist\/images\/LOGO-FORJAR.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3860,
-		"inputAbbreviatedPath": "\/dist\/images\/LOGO-FORJAR.png",
-		"outputAbbreviatedPath": "\/dist\/images\/LOGO-FORJAR.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/dist\/images\/mallplaza-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

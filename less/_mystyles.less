@@ -65,7 +65,9 @@ header {
 		//padding-top: 50px;
 	}
 	&#managers {
-		height: 150px;
+		height: 200px;
+		background-color: lighten(@blueLight, 50%);
+		margin-bottom: 30px;
 		h1 {
 			color: @blueMain;
 		}
@@ -393,54 +395,75 @@ div#our_staff {
 }
 
 div#profile-detail {
+	//foto de la izquierda
 	#pro-pic {
 		img {
-			box-shadow: 0.3em 0.3em @gray-lighter;
+			//box-shadow: 0.3em 0.3em @gray-lighter;
 		}
 		#pers-info {
 			h2 {
-				font-weight: 900;
-				color: @blueMain;
-				text-shadow: 0.1em 0.1em @gray-lighter;
+				font-weight: 500;
+				color: @blueDark;
+				font-size: 4.5em;
+				//text-shadow: 0.1em 0.1em @gray-lighter;
 			}
 			h3 {
 				margin-top: 0;
-				color: @blueLight;
+				color: @gray-light;
 			}	
 		}	
 	}
-	dl {
-		&#pro-info {
-			dt {
-				font-size: 1.25em;
+	//descripción del perfil
+	#pro-desc {
+		h3 {
+			margin-top: 0;
+			font-size: 2.5em;
+			font-weight: 500;
+		}
+		dl {
+			&#pro-info {
+				//margin-top: 30px;
+				//font-size: 2em;
+				dt {
+					font-size: 1.4em;
+					font-weight: 100;
+					color: @gray;
+				}
+				dd {
+					color: lighten(@gray-light, 20%);
+					font-style: italic;
+					font-size: 1.2em;
+				}
 			}
 			dd {
-				color: lighten(@gray-light, 20%);
-				font-style: italic;
-				font-size: 1em;
+				margin-bottom: 10px;
+				
 			}
 		}
-		dd {
-			margin-bottom: 20px;
-			
-		}
-	}
-	ul {
-		//padding-left: 0;
-		span {
-			margin-right: 5px;
-			color: @blueLight;
-		}
-		li {
-			ul {
-				padding-left:20px;
+		ul {
+			padding-left: 20px;
+			&#fields {
+				font-size: 1.4em;
+				span {
+					margin-right: 5px;
+					color: @blueLight;
+				}
 				li {
-					list-style-type: none;
+					ul {
+						padding-left:20px;
+						li {
+							list-style-type: none;
+						}
+					}
+				}
+			}
+			&#hlights {
+				li {
+					line-height: 2;
 				}
 			}
 		}
 	}
-
 }
 
 // Contact 
