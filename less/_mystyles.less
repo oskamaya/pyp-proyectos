@@ -60,7 +60,7 @@ header {
 	padding-top: 50px;
 	&#our-company {
 		background: url("../images/bg-our-company.jpg") top center no-repeat;
-		background-size: 100% auto;
+		background-size: auto 100%;
 		color: @gray-lighter;
 		//padding-top: 50px;
 	}
@@ -210,7 +210,6 @@ div#our_projects {
 					opacity: 0;
 					width: 263px;
 					height: 100%;
-					z-index: 100;
 					.transition(opacity 0.35s;);
 					h4, p {
 						color: white;
@@ -334,6 +333,24 @@ div#our_staff {
 			font-size: 1.3em;
 		}
 	}
+	span.prof-hov {
+		position: absolute;
+		top: 0;
+		background-color: rgba(51, 67, 125, 0.8);
+		opacity: 0;
+		.transition(opacity 0.35s;);
+		span {
+			color: white;
+			font-size: 2em;
+		} 
+		p {
+			color: white;
+			font-family: @font-family-sans-serif;
+			text-transform: uppercase;
+			font-size: 1.25em;
+			font-weight: 100;
+		}
+	}
 	> div {
 		margin-bottom: 50px;
 		h2 {
@@ -352,6 +369,7 @@ div#our_staff {
 		h5 {
 			line-height: 1.4;
 		}
+		
 		&#directors {
 			> div {
 				text-align: center;
@@ -359,13 +377,27 @@ div#our_staff {
 					font-size: floor((@font-size-base * 2));
 				}
 			}
-			img {
-				max-width: 200px;
+			a {
+				//hover ver perfil 
+				span.prof-hov {
+					width: 200px;
+					height: 200px;
+					span {
+						margin-top: 70px;
+					}
+				}
+				&:hover span {
+					opacity: 1;
+				}
+				img {
+					max-width: 200px;
+				}
 			}
-		}
+					}
 		&#managers {
 			> div {
-			text-align: center;
+				text-align: center;
+
 				h3 {
 					font-size: floor((@font-size-base * 1.3));
 				}
@@ -373,8 +405,20 @@ div#our_staff {
 					font-size: floor((@font-size-base * 1.100));
 				}
 			}
-			img {
-				max-width: 150px;
+			a {
+				span.prof-hov {
+					width: 150px;
+					height: 150px;
+					span {
+						margin-top: 45px;
+					}
+				}
+				&:hover span {
+					opacity: 1;
+				}
+				img {
+					max-width: 150px;
+				}
 			}
 		}
 		&#engineers, &#drafters, &#adm-sell {
@@ -443,18 +487,13 @@ div#profile-detail {
 		ul {
 			padding-left: 20px;
 			&#fields {
-				font-size: 1.4em;
+				font-size: 1.2em;
 				span {
 					margin-right: 5px;
 					color: @blueLight;
 				}
 				li {
-					ul {
-						padding-left:20px;
-						li {
-							list-style-type: none;
-						}
-					}
+					margin-bottom: 10px;
 				}
 			}
 			&#hlights {
@@ -466,52 +505,48 @@ div#profile-detail {
 	}
 }
 
-// Contact 
+// Contact
 
-.nav-top {
-	z-index: 1000;
+div.head-contact {
+	height: 10em;
+	background-color: lighten(@blueLight, 50%);
+	vertical-align: middle;
+	h1 {
+		color: @blueMain;
+		margin-top: 1.1em;
+	}
 }
 
-.wrap {
-	min-height: 100%;
-	position: relative;
-	margin-top: -@navbar-height;
-	padding-top: @navbar-height;
-
-	.main {
-		overflow: auto;
-		padding-bottom: 260px;
-		div#contact {
-			background: url('../images/bg-contact.jpg') no-repeat top center;
-			div#form-cont {
-				padding: 0 30px 30px;
-				background-color: rgba(255, 255, 255, 0.7);
-				h3 {
-					color: @purpleMain;
-				}
-				form {
-					margin-top: 30px;
-					label {
-						font-family: @font-family-sans-serif;
-						color: @purpleDark;
-					}
-				}
+div#contact {
+	background: url('../images/bg-contact.jpg') no-repeat top center;
+	div#form-cont {
+		padding: 0 30px 30px;
+		background-color: rgba(255, 255, 255, 0.7);
+		h3 {
+			color: @purpleMain;
+		}
+		form {
+			margin-top: 30px;
+				label {
+				font-family: @font-family-sans-serif;
+				color: @purpleDark;
 			}
-			div#pp-info {
-				position: relative;
-				display: block;
-				div.pp-pin {
-					position: absolute;
-					left: 175px;
-					top: 56px;
-				}
-				.popover {
-					display: block;
-					top: 163px;
-					left: 139px;
-				}
-			}
-		}		
+		}
+	}
+	div#pp-info {
+		position: relative;
+		display: block;
+		div.pp-pin {
+			position: absolute;
+			left: 175px;
+			top: 56px;
+		}
+		.pop-wider {
+			display: block;
+			top: 163px;
+			left: 139px;
+			max-width: 380px;
+		}
 	}
 	div.head-contact {
 		background-color: @gray-lighter;
@@ -524,38 +559,26 @@ div#profile-detail {
 }
 
 footer {
+	height: 260px;
 	background: url('../images/bg-footer.svg') no-repeat bottom right;
-
-	& img[src*=".svg"] {
+	margin: 0;
+	padding-top: 150px;
+	div.navbar-left {
+		a {
+			margin-right: 20px; 
+		}
+		float: left;
 		margin-right: 20px;
 	}
-
-	#cont-bot {
-		min-height: 260px;
-		position: relative;
-		.row {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-			//margin-bottom: 20px;
-		}
+	address {
+		float: left;
+		font-family: @font-family-sans-serif;
+		//position: absolute;
+		//bottom: 0;
 	}
+	&#contact-ft {
 
-	#add_info {
-		> h5 {
-			font-family: @font-family-sans-serif;
-			font-weight: 900;
-			color: @blueDark;
-			margin-top: 0;
-		} 
 	}
-	&.ft-bot {
-		position: relative;
-		margin-top: -260px; /* negative value of footer height */
-		//height: 260px;
-		clear:both;
-		//padding-top:20px;
-	} 
 }
 
 

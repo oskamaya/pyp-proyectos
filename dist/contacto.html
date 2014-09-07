@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- <div class="container"> starts container-->
-    <nav class="navbar navbar-default nav-top" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,96 +59,102 @@
         </div><!-- /.container-fluid -->
       </div>
     </nav>
+    <div class="head-contact">
+      <div class="container">
+        <h1>ESCRÍBANOS</h1>
+      </div>
+    </div>
+    <!-- main container  -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="form-cont">
+            <h3>Complete los siguientes datos y estaremos respondiendo a sus inquietudes a la brevedad.</h3>
 
-    <!-- main wrap div to flush bottom -->
-
-    <div class="wrap">
-      <div class="main">
-        <div class="head-contact">
-          <div class="container">
-              <h1>ESCRÍBANOS</h1>
-          </div>
-        </div>
-        <!-- main container  -->
-        <div class="row" id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6" id="form-cont">
-                <h3>Complete los siguientes datos y estaremos respondiendo a sus inquietudes a la brevedad.</h3>
-
-                <!-- formulario -->
-                <form class="form-horizontal" action="process.php" method="post" id="form-contact">
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-3 control-label">Nombres</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" required="requiered" name="nombres_usuario" placeholder="Escriba su nombre">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputLastname" class="col-sm-3 control-label">Apellidos</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputLastname" name="apellidos_usuario" placeholder="Apellidos">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputEmail" class="col-sm-3 control-label">Email</label>
-                    <div class="col-sm-9">
-                      <input type="email" class="form-control" id="inputEmail" name="email_usuario" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="message" class="col-sm-3 control-label">Su mensaje</label>
-                    <div class="col-sm-9">
-                      <textarea class="form-control" name="mensaje_usuario" rows="3" id="message"></textarea>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-3 col-sm-9">
-                      <button type="submit" class="btn btn-primary">ENVIAR DATOS</button>
-                    </div>
-                  </div>
-                </form>
-                <!-- termina el formulario -->
-
+            <!-- formulario -->
+            <form class="form-horizontal" action="process.php" method="post" id="form-contact">
+              <div class="form-group">
+                <label for="inputName" class="col-sm-3 control-label">Nombres</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" required="requiered" name="nombres_usuario" placeholder="Escriba su nombre">
+                </div>
               </div>
-              <div class="col-md-6" id="pp-info">
-                <div class="pp-pin">
-                  <img src="images/pp-pin.png">
+              <div class="form-group">
+                <label for="inputLastname" class="col-sm-3 control-label">Apellidos</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputLastname" name="apellidos_usuario" placeholder="Apellidos">
                 </div>
-                <div class="popover bottom">
-                  <div class="arrow "></div>
-                  <h3 class="popover-title">NUESTRAS OFICINAS</h3>
-                  <div class="popover-content">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Email</label>
+                <div class="col-sm-9">
+                  <input type="email" class="form-control" id="inputEmail" name="email_usuario" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="col-sm-3 control-label">Su mensaje</label>
+                <div class="col-sm-9">
+                  <textarea class="form-control" name="mensaje_usuario" rows="3" id="message"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9">
+                  <button type="submit" class="btn btn-primary">ENVIAR DATOS</button>
+                </div>
+              </div>
+            </form>
+            <!-- termina el formulario -->
+
+          </div>
+          <div class="col-md-6" id="pp-info">
+            <div class="pp-pin">
+              <img src="images/pp-pin.png">
+            </div>
+            <div class="popover bottom pop-wider">
+              <div class="arrow "></div>
+              <h3 class="popover-title">NUESTRAS OFICINAS</h3>
+              <div class="popover-content">
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/edificio-terpel.jpg" class="img-responsive">
+                  </div>
+                  <div class="col-md-6">
                     <address>
-                      Carrera 7 No. 75-51 Oficina 302<br>
-                      PBX 519-0905<br>
-                      Bogotá, DC, Colombia<br>
-                      <a href="mailto:empresa@pyp-proyectos.com">contacto@pyp-proyectos.com</a>
-                  </address>
+                        Carrera 7 No. 75-51 Oficina 302<br>
+                        PBX 519-0905<br>
+                        Bogotá, DC, Colombia<br>
+                        <a href="mailto:empresa@pyp-proyectos.com">contacto@pyp-proyectos.com</a>
+                    </address>
                   </div>
                 </div>
+                
+                
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- here ends main container -->
     </div>
-    <!-- here ends wrap container --> 
+    
     
     <!-- footer -->
-    <footer class="row ft-bot">
-      <div class="container" id="cont-bot">
-        <div class="row">
-          <div class="col-md-2">
+    <footer id="contact-ft">
+      <div class="container">
+        <div class="navbar-left">
+          <a href="" title="PyP Proyectos en Twitter">
             <img src="images/twitter.svg">
+          </a>
+          <a href="" title="PyP Proyectos en Instagram">
             <img src="images/instag.svg">
-          </div>
-          <div class="col-md-10" id="add_info">
-            <h5>Carrera 7 No. 75-51 Oficina 302</h5>
-            <h5>PBX 519-0905, Bogotá, DC, Colombia</h5>
-          </div>
-        </div>        
+          </a>
+        </div>
+        <address>
+          <strong>PyP Proyectos S.A.S.</strong><br>
+          Carrera 7 No. 75-51 Oficina 302<br>
+          Bogotá DC, Colombia<br>
+          PBX: 519-0905
+        </address>
       </div>
     </footer>
     
@@ -156,23 +162,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-          $("#form-contact submit").click(function(){
-            $.ajax({
-                type: "POST",
-                url: "process.php", //process to mail
-                data: $('#form-contact').serialize(),
-                success: function(msg){
-                    $("#thanks").html(msg) //hide button and show thank you
-                    $("#form-content").modal('hide'); //hide popup  
-                },
-                error: function(){
-                    alert("failure");
-                }
-            });
-          });
-        });
-    </script>
   </body>
 </html>
