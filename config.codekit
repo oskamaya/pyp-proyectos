@@ -272,7 +272,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 106451,
+		"initialSize": 167684,
 		"inputAbbreviatedPath": "\/dist\/images\/bg-contact.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/bg_contact.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -418,6 +418,17 @@
 		"initialSize": 1804,
 		"inputAbbreviatedPath": "\/dist\/images\/dwn-arrow.png",
 		"outputAbbreviatedPath": "\/dist\/images\/dwn-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/edificio-terpel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114723,
+		"inputAbbreviatedPath": "\/dist\/images\/edificio-terpel.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/edificio-terpel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -56818,7 +56829,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "oscaramaya",
+"lastSavedByUser": "OSCAR AMAYA",
 "manualImportLinks": {
 	},
 "projectAttributes": {

@@ -508,12 +508,12 @@ div#profile-detail {
 // Contact
 
 div.head-contact {
-	height: 10em;
+	height: 6em;
 	background-color: lighten(@blueLight, 50%);
 	vertical-align: middle;
 	h1 {
 		color: @blueMain;
-		margin-top: 1.1em;
+		margin-top: 0.5em;
 	}
 }
 
@@ -543,17 +543,21 @@ div#contact {
 		}
 		.pop-wider {
 			display: block;
-			top: 163px;
-			left: 139px;
+			top: 153px;
+			left: 61px;
 			max-width: 380px;
-		}
-	}
-	div.head-contact {
-		background-color: @gray-lighter;
-		min-height: 150px;
-		h1 {
-			font-size: 4em;
-			margin-top: 45px;
+			.popover-content {
+				display: inline-block;
+				.img-loc {
+					width: 40%;
+					float: left;
+				} 
+				.add-loc {
+					width: 60%;
+					float: left;
+					padding: 0 0 0 10px;
+				}
+			}
 		}
 	}
 }
