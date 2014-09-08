@@ -147,7 +147,7 @@ div#our_clients {
 		max-height: 75px;
 		margin: 0 auto;
 		//.desaturate(100%);
-		.opacity(.4);
+		//.opacity(.4);
 	}
 	div.row {
 		margin: 40px 0 0;
@@ -198,11 +198,11 @@ div#our_projects {
 		display: block;
 	}
 	.row {
-		& div[id*="pro-"] {
+		div.project {
 		margin-bottom: 30px;
 		position: relative;
-		//cursor: pointer;
 			a {
+				cursor: default;
 				> span {
 					position: absolute;
 					top: 0;
@@ -397,6 +397,7 @@ div#our_staff {
 		&#managers {
 			> div {
 				text-align: center;
+				margin-bottom: 30px;
 
 				h3 {
 					font-size: floor((@font-size-base * 1.3));
@@ -424,6 +425,7 @@ div#our_staff {
 		&#engineers, &#drafters, &#adm-sell {
 			> div {
 			text-align: center;
+			margin-bottom: 30px;
 				h3 {
 					font-size: floor((@font-size-base * 1));
 				}
