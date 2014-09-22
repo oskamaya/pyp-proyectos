@@ -20,28 +20,28 @@ if(isset($_POST['submitform'])) {
 
   foreach ($fieldsArray as $key => $val) {
     switch ($key) {
-      case 'name':
-      case 'lastname':
-      case 'message':
-        if(empty($val)) {
-          $hasError = true;
-          $errorArray[$key] = ucfirst($key) . "El campo ha quedado vacio";
-        }
-        break;
-      case 'email':
-        if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-          $hasError = true;
-          $errorArray[$key] = "Email invalido";
-        } else {
-          $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-        }
-        break;
-    }  
+        case 'name':
+        case 'lastname':
+        case 'message':
+          if(empty($val)) {
+            $hasError = true;
+            $errorArray[$key] = ucfirst($key) . "El campo ha quedado vacio";
+          }
+          break;
+        case 'email':
+          if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $hasError = true;
+            $errorArray[$key] = "Email invalido"
+          } else {
+            $email = filter_var($email, FILTER_SANITIZE_EMAIL)
+          }
+          break;
+      }  
   }
 
   if($hasError !== true) {
     $to = "oskamaya@gmail.com";
-    $subject = "Contacto - PYP Proyectos";
+    $subject = "Contacto - PYP Proyectos"
     $msgcontents = "Nombre: $name<br>Apellidos: $lastname<br>Email: $email<br> Mensaje: $message";
     $headers = "MIME-Version 1.0 \r\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
@@ -54,7 +54,7 @@ if(isset($_POST['submitform'])) {
       unset($email);
       unset($message);
     }
-  }     
+  } 
 }
 
 ?>
@@ -135,39 +135,39 @@ if(isset($_POST['submitform'])) {
             <!-- formulario -->
             <form id="contactForm" method="post" class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
               	<?php  
-                  if($sent === true) {
+                  if(sent === true) {
                     echo "<h2 class='success'> Gracias, su mensaje ha sido enviado satisfactoriamente </h2>";
-                  } elseif($hasError === true) {
+                  } elseif ($hasError === true) {
                     echo '<ul class="error_list">';
-                    foreach($errorArray as $key => $val) {
-                      echo "<li>" . ucfirst($key) . " field error - $val</li>";
+                    foreach ($errorArray as $key => $val) {
+                      echo "<li>". ucfirst($key) . "field error - $val</li>";
                     }
-                    echo '</ul>';
+                    echo "</ul>";
                   }
                 ?>
 
                 <div class="form-group">
                 	<label for="inputName" class="col-sm-3 control-label">Nombres</label>
                 	<div class="col-sm-9">
-                  	<input type="text" class="form-control" name="name" value="<?php echo(isset($name) ? $name : ""); ?>">
+                  	<input id="cname" type="text" class="form-control" name="name" value="<?php echo(isset($name) ? $name : ""); ?>" placeholder="Escriba su nombre" required>
                	</div>
              	</div>
               	<div class="form-group">
                	<label for="inputLastname" class="col-sm-3 control-label">Apellidos</label>
                 	<div class="col-sm-9">
-                  	<input type="text" class="form-control" name="lastname" value="<?php echo(isset($lastname) ? $lastname : ""); ?>">
+                  	<input id="clastname" type="text" class="form-control" name="lastname" value="<?php echo(isset($lastname) ? $lastname : ""); ?>" placeholder="Apellidos" required>
                 	</div>
               	</div>
               	<div class="form-group">
                	<label for="inputEmail" class="col-sm-3 control-label">Email</label>
                 	<div class="col-sm-9">
-                  <input type="email" class="form-control" name="email" value="<?php echo(isset($email) ? $email : ""); ?>">
+                  <input id="cemail" type="email" class="form-control" name="email" value="<?php echo(isset($email) ? $email : ""); ?>" placeholder="Email" required>
                </div>
               	</div>
               	<div class="form-group">
                	<label for="message" class="col-sm-3 control-label">Su mensaje</label>
                 	<div class="col-sm-9">
-                  	<textarea class="form-control" name="message" rows="3" value="<?php echo(isset($message) ? $message : ""); ?>"></textarea>
+                  	<textarea id="ccomment" class="form-control" name="message" rows="3" value="<?php echo(isset($message) ? $message : ""); ?>" required></textarea>
                 	</div>
               	</div>
               	<div class="form-group">
@@ -230,10 +230,8 @@ if(isset($_POST['submitform'])) {
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="js/bootstrap.min.js"></script>
-   <!-- jquery validation link -->
-   
+   <!-- jquery validaion link -->
    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
-   <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.js"></script>
    <script type="text/javascript">
    jQuery(document).ready(function($) {
       $("#contactForm").validate({
@@ -248,7 +246,7 @@ if(isset($_POST['submitform'])) {
         		},
         		email: {
         			required: true,
-        			email: true
+        			email. true
         		},
         		message: {
         			required: true,
@@ -257,16 +255,16 @@ if(isset($_POST['submitform'])) {
         	},
         	messages: {
         		name: {
-              required: "Este campo es obligatorio",
+              required: "Ingrese un nombre válido por favor",
         			minlenght: "Un nombre no puede tener una sola letra"
         		},
         		lastname: {
-        			required: "Este campo es obligatorio",
+        			required: "Ingrese un apellido válido por favor",
         			minlenght: "Un apellido no puede tener una sola letra"
         		},
         		email: {
-        			required: "Ingrese tu dirección de correo",
-        			email: "Ingresa una dirección de correo válida"
+        			required: "Ingrese un email por favor",
+        			email: "Un nombre un email válido por favor"
         		},
         		message: {
         			required: "Ingrese su mensaje",  

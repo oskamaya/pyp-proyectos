@@ -56,6 +56,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/contacto-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/contacto-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/contacto.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -272,7 +281,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 167684,
+		"initialSize": 106451,
 		"inputAbbreviatedPath": "\/dist\/images\/bg-contact.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/bg_contact.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -829,6 +838,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/serv_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27800,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_1.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/serv_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -836,6 +856,17 @@
 		"initialSize": 73915,
 		"inputAbbreviatedPath": "\/dist\/images\/serv_1.png",
 		"outputAbbreviatedPath": "\/dist\/images\/serv_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24794,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_10.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -935,6 +966,17 @@
 		"initialSize": 72013,
 		"inputAbbreviatedPath": "\/dist\/images\/serv_7.png",
 		"outputAbbreviatedPath": "\/dist\/images\/serv_7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/serv_8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20328,
+		"inputAbbreviatedPath": "\/dist\/images\/serv_8.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/serv_8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1443,23 +1485,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/dist\/js\/holder.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/js\/holder.js",
-		"outputAbbreviatedPath": "\/dist\/js\/min\/holder-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/dist\/js\/html5shiv.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/dist\/js\/min\/html5shiv-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/js\/jquery.fittext.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/jquery.fittext.js",
+		"outputAbbreviatedPath": "\/dist\/js\/min\/jquery.fittext-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -56829,7 +56871,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "OSCAR AMAYA",
+"lastSavedByUser": "oscaramaya",
 "manualImportLinks": {
 	},
 "projectAttributes": {

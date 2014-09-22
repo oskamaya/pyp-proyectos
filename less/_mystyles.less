@@ -115,13 +115,9 @@ div#our_experience {
 	padding: 30px 10px;
 	article{
 		p {
-			//font-size: @font-size-large;
 			color: @gray-lighter;
 		}
 		&:first-child {
-			//font-family: @font-family-sans-serif;
-			//font-size: @font-size-large;
-			//font-weight: 100;
 			h1 {
 				margin-bottom: 30px;
 				color: @greenPYP;
@@ -135,6 +131,9 @@ div#our_experience {
 			} 
 		}
 	}
+}
+div#our_experience_small {
+	background-color: @blueMain;
 }
 div#our_clients {
 	margin: 40px 0;
@@ -570,17 +569,25 @@ footer {
 	margin: 0;
 	padding-top: 150px;
 	div.navbar-left {
+		h5 {
+			margin-top: 3px;
+			font-weight: bold;
+			color: @blueMain;
+		}
 		a {
-			margin-right: 20px; 
+			img {
+				width: 50px;
+			}
+			
 		}
 		float: left;
 		margin-right: 20px;
 	}
 	address {
+		padding-left: 20px;
+		border-left: thin solid @gray-lighter;
 		float: left;
 		font-family: @font-family-sans-serif;
-		//position: absolute;
-		//bottom: 0;
 	}
 	&#contact-ft {
 
