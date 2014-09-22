@@ -6,7 +6,7 @@ $sent = false;
 if(isset($_POST['submitform'])) {
   $name = trim(htmlspecialchars($_POST['name'], ENT_QUOTES));
   $lastname = trim(htmlspecialchars($_POST['lastname'], ENT_QUOTES));
-  $email = trim($POST['email']);
+  $email = trim($_POST['email']);
   $message = trim(htmlspecialchars($_POST['message'], ENT_QUOTES));
 
   $fieldsArray = array(
@@ -149,25 +149,25 @@ if(isset($_POST['submitform'])) {
                 <div class="form-group">
                 	<label for="inputName" class="col-sm-3 control-label">Nombres</label>
                 	<div class="col-sm-9">
-                  	<input type="text" class="form-control" name="name" value="<?php echo(isset($name) ? $name : ""); ?>">
+                  	<input id="fname" type="text" class="form-control" name="name" value="<?php echo(isset($name) ? $name : ""); ?>">
                	</div>
              	</div>
               	<div class="form-group">
                	<label for="inputLastname" class="col-sm-3 control-label">Apellidos</label>
                 	<div class="col-sm-9">
-                  	<input type="text" class="form-control" name="lastname" value="<?php echo(isset($lastname) ? $lastname : ""); ?>">
+                  	<input id="flastname" type="text" class="form-control" name="lastname" value="<?php echo(isset($lastname) ? $lastname : ""); ?>">
                 	</div>
               	</div>
               	<div class="form-group">
                	<label for="inputEmail" class="col-sm-3 control-label">Email</label>
                 	<div class="col-sm-9">
-                  <input type="email" class="form-control" name="email" value="<?php echo(isset($email) ? $email : ""); ?>">
+                  <input id="femail" type="email" class="form-control" name="email" value="<?php echo(isset($email) ? $email : ""); ?>">
                </div>
               	</div>
               	<div class="form-group">
-               	<label for="message" class="col-sm-3 control-label">Su mensaje</label>
+               	<label class="col-sm-3 control-label">Su mensaje</label>
                 	<div class="col-sm-9">
-                  	<textarea class="form-control" name="message" rows="3" value="<?php echo(isset($message) ? $message : ""); ?>"></textarea>
+                  	<textarea id="fmessage" class="form-control" name="message" rows="3" value="<?php echo(isset($message) ? $message : ""); ?>"></textarea>
                 	</div>
               	</div>
               	<div class="form-group">
@@ -237,43 +237,76 @@ if(isset($_POST['submitform'])) {
    <script type="text/javascript">
    jQuery(document).ready(function($) {
       $("#contactForm").validate({
-        	rules: {
-        		name: {
-        			required: true,
-        			minlenght: 2
-        		},
-        		lastname: {
-        			required: true,
-        			minlenght: 2
-        		},
-        		email: {
-        			required: true,
-        			email: true
-        		},
-        		message: {
-        			required: true,
-        			minlenght: 10
-        		}
-        	},
-        	messages: {
-        		name: {
-              required: "Este campo es obligatorio",
-        			minlenght: "Un nombre no puede tener una sola letra"
-        		},
-        		lastname: {
-        			required: "Este campo es obligatorio",
-        			minlenght: "Un apellido no puede tener una sola letra"
-        		},
-        		email: {
-        			required: "Ingrese tu dirección de correo",
-        			email: "Ingresa una dirección de correo válida"
-        		},
-        		message: {
-        			required: "Ingrese su mensaje",  
-        			minlenght: "Su mensaje no puede ser tan corto"
-        		}
-        	}
+        debug: true
+        	// rules: {
+        	// 	name: {
+        	// 		required: true,
+        	// 		minlenght: 2
+        	// 	},
+        	// 	lastname: {
+        	// 		required: true,
+        	// 		minlenght: 2
+        	// 	},
+        	// 	email: {
+        	// 		required: true,
+        	// 		email: true
+        	// 	},
+        	// 	message: {
+        	// 		required: true,
+        	// 		minlenght: 10
+        	// 	}
+        	// },
+        	// messages: {
+        	// 	name: {
+         //      required: "Este campo es obligatorio",
+        	// 		minlenght: "Un nombre no puede tener una sola letra"
+        	// 	},
+        	// 	lastname: {
+        	// 		required: "Este campo es obligatorio",
+        	// 		minlenght: "Un apellido no puede tener una sola letra"
+        	// 	},
+        	// 	email: {
+        	// 		required: "Ingrese tu dirección de correo",
+        	// 		email: "Ingresa una dirección de correo válida"
+        	// 	},
+        	// 	message: {
+        	// 		required: "Ingrese su mensaje",  
+        	// 		minlenght: "Su mensaje no puede ser tan corto"
+        	// 	}
+        	// }
      	});
+    $("#fname").rules("add", {
+      required: true,
+      minlenght: 2,
+      message: {
+        required: "Este campo es obligatorio",
+        minlenght: "Ingrese un nombre válido"
+      }
+    });
+    // $("#flastname").rules("add", {
+    //   required: true,
+    //   minlenght: 2,
+    //   messages: {
+    //     required: "este campo no puede quedar vacío",
+    //     minlenght: "Ingrese un nombre válido"
+    //   }
+    // });
+    // $("#femail").rules("add", {
+    //   required: true,
+    //   email: true,
+    //   messages: {
+    //     required: "este campo no puede quedar vacío",
+    //     email: "Ingrese un email válido"
+    //   }
+    // });
+    // $("#fmessage").rules("add", {
+    //   required: true,
+    //   minlenght: 10,
+    //   messages: {
+    //     required: "este campo no puede quedar vacío",
+    //     minlenght: "Tu mensaje no puede ser tan corto"
+    //   }
+    // });
    });
   </script>
   </body>
