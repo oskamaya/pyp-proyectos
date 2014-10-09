@@ -40,12 +40,27 @@ if(isset($_POST['submitform'])) {
   }
 
   if($hasError !== true) {
-    $to           = "oskamaya@yahoo.com.co";
-    $subject      = "Contacto - PYP Proyectos";
-    $msgcontents  = "Nombre: $name<br>Apellidos: $lastname<br>Email: $email<br> Mensaje: $message";
-    $headers      = 'From: $name <$email>' . "\r\n" .
-                    'X-Mailer: PHP/' . phpversion();
-    $mailsent = mail($to, $subject, $msgcontents, $headers);
+
+
+     $to = "contacto@pyp-proyectos.com,empresa@pyp-proyectos.com,oskamaya@yahoo.com.co"; 
+     $subject = "Contacto - PYP Proyectos"; 
+     $body = strip_tags('<table>
+          <tr>
+            <td><strong>Nombre:</strong></td>
+            <td>'.$name." ".$lastname.'</td>
+          </tr>
+          <tr>
+            <td><strong>Email:</strong></td>
+            <td>'.$email.'</td>
+          </tr>
+          <tr>
+            <td><strong>Mensaje:</strong></td>
+            <td>'.$message.'</td>
+          </tr>
+          </table>');
+     $headers = "From: $email"; 
+     $sent = mail($to, $subject, $body, $headers) ;
+
     if ($mailsent) {
       $sent = true;
       unset($name);
