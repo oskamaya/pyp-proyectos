@@ -1047,6 +1047,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/andres_rodriguez.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58443,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/andres_rodriguez.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/andres_rodriguez.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/angela_pedraza.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1076,6 +1087,17 @@
 		"initialSize": 61822,
 		"inputAbbreviatedPath": "\/dist\/images\/staff\/armando_palomino.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/staff\/armando_palomino.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/staff\/avatar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7559,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/avatar.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/avatar.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1179,6 +1201,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/clara_torres.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74636,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/clara_torres.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/clara_torres.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/diana_vergara.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1241,6 +1274,17 @@
 		"initialSize": 62768,
 		"inputAbbreviatedPath": "\/dist\/images\/staff\/gabriel_valderrama.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/staff\/gabriel_valderrama.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/staff\/gina_quimbayo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67219,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/gina_quimbayo.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/gina_quimbayo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1322,6 +1366,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/kenny_sanchez.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64048,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/kenny_sanchez.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/kenny_sanchez.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/lilian_pulido.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1362,6 +1417,17 @@
 		"initialSize": 66468,
 		"inputAbbreviatedPath": "\/dist\/images\/staff\/mario_melgarejo.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/staff\/mario_melgarejo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/staff\/martha_campos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61110,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/martha_campos.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/martha_campos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1541,6 +1607,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/miguel_palomino.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/monica_alvarez.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/monica_alvarez.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
