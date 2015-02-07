@@ -1432,6 +1432,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/mauricio_coronado.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67037,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/mauricio_coronado.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/mauricio_coronado.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/miguel_malagon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
