@@ -1,0 +1,980 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text/javascript"
+			],
+			[
+				"un",
+				"unset"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"head",
+				"headers"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"filte",
+				"filter_list"
+			],
+			[
+				"emp",
+				"empty"
+			],
+			[
+				"fie",
+				"fieldsArray"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"erro",
+				"errorArray"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"EN",
+				"ENT_QUOTES"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"las",
+				"lastname"
+			],
+			[
+				"has",
+				"hasError"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"el",
+				"elseif	elseif …"
+			],
+			[
+				"sucess",
+				"success"
+			],
+			[
+				"our",
+				"our_experience"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"gray-li",
+				"gray-light"
+			],
+			[
+				"conta",
+				"contactForm"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"min",
+				"minlenght"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"a",
+				"arrow"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"lne",
+				"line-height"
+			],
+			[
+				"light",
+				"lighten(color, 10%)"
+			],
+			[
+				"su",
+				"sup	Tag"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"grayLight",
+				"gray-lighter"
+			],
+			[
+				"ligh",
+				"lighten(color, 10%)"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"form",
+				"form-contact"
+			],
+			[
+				"men",
+				"mensaje_usuario"
+			],
+			[
+				"nombre",
+				"nombres_usuario"
+			],
+			[
+				"le",
+				"lead"
+			],
+			[
+				"txt",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ita",
+				"italic"
+			],
+			[
+				"font-a",
+				"font-family-serif"
+			],
+			[
+				"grayLi",
+				"gray-light"
+			],
+			[
+				"BAC",
+				"background-size"
+			],
+			[
+				"TEXT",
+				"text-transform"
+			],
+			[
+				"lih",
+				"lighten"
+			],
+			[
+				"blue",
+				"blueMain"
+			],
+			[
+				"tes",
+				"text-transform"
+			],
+			[
+				"proj",
+				"proj_detail"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"poi",
+				"pointer"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"bag",
+				"background-color"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border",
+				"borders"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"write",
+				"write_us"
+			],
+			[
+				"dar",
+				"darker"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"mus",
+				"museo_sans100"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"MIN",
+				"min"
+			],
+			[
+				"lay",
+				"layout"
+			],
+			[
+				"res",
+				"responsive"
+			],
+			[
+				"gra",
+				"gray"
+			],
+			[
+				"ora",
+				"orange"
+			],
+			[
+				"mix",
+				"mixins"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"over",
+				"overriding"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"conte",
+				"container"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"PA",
+				"padding-top"
+			],
+			[
+				"aut",
+				"auto"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"rese",
+				"reset"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"page",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"node",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"npm",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 323.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/miguel_palomino.html",
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/carlos_palomino.html",
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/equipo.html",
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/less/_mystyles.less",
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/proyectos.html",
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/miguel_malagon.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/miguel_malagon.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/pyp-proyectos.sublime-project",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/_mystyles.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/variables.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/contacto.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/contacto.php",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/index.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/ileana_solano.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/mario_melgarejo.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/miguel_palomino.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/proy_detalle.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/proyectos.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/servicios.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/armando_palomino.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/carlos_palomino.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/carolina_rojas.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/equipo.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/fernando_pacheco.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/contacto-2.html",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/process.php",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/css/_mystyles.css",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/css/styles.css",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/scaffolding.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/bootstrap.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/type.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/mixins.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/tooltip.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/modals.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/navbar.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/grid.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/buttons.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/carousel.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/dropdowns.less",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist/js/bootstrap.min.js",
+		"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less/navs.less",
+		"/Applications/MAMP/htdocs/oskdesign/less/variables.less",
+		"/Users/osk/_mine/resources/webdesign/HorizontalSlideOutMenu/index.html",
+		"/Applications/MAMP/htdocs/oskdesign/img/6.png",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Applications/MAMP/htdocs/oskdesign/js/menu-horizontal.cess",
+		"/Applications/MAMP/htdocs/oskdesign/css/default.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/component.css",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Less2Css/README.md",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Less2Css/Default (OSX).sublime-keymap",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/oskdesign/js/less-1.3.3.min.js",
+		"/Applications/MAMP/htdocs/oskdesign/less/mixins.less",
+		"/Applications/MAMP/htdocs/oskdesign/less/type.less",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/osk/Library/Application Support/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Applications/MAMP/htdocs/oskdesign/work.html",
+		"/Applications/MAMP/htdocs/oskdesign/less/fonts.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/utilities.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/site.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/bootstrap-responsive.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/navbar.less",
+		"/Applications/MAMP/htdocs/oskdesign/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/oskdesign/css/bootstrap.min.css",
+		"/Applications/MAMP/htdocs/oskdesign/less/responsive.less",
+		"/Applications/MAMP/htdocs/oskdesign/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/oskdesign/css/reset.less.css",
+		"/Users/osk/www/segurosdigitales/segurosdigitales/static/styles/bootstrap/grid.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/dist",
+			"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less",
+			"",
+			"/Users/osk/work/websites/pyp-proyectos/pyp-proyectos/less",
+			"",
+			"src=\"js/holder.js",
+			"/Applications/MAMP/htdocs/oskdesign",
+			"span6",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a href=\"contacto.html\"",
+			"feedl",
+			"<a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>",
+			"<!-- footer -->\n    footer>",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>P&P Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"footer",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<footer id=\"contact-ft\">\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"class=\"img-responsive grayscale\">",
+			"<div class=\"col-md-3\">",
+			"<div class=\"col-sm-3\">",
+			"<!-- Here starts a project -->",
+			"starts a",
+			"starts a project ",
+			"<footer class=\"row\">\n      <div class=\"container\" id=\"cont-bot\">\n        <div class=\"row\">\n          <div class=\"col-md-2\">\n            <img src=\"images/twitter.svg\">\n            <img src=\"images/instag.svg\">\n          </div>\n          <div class=\"col-md-10\" id=\"add_info\">\n            <h5>Carrera 7 No. 75-51 Oficina 302</h5>\n            <h5>PBX 519-0905, Bogotá, DC, Colombia</h5>\n          </div>\n        </div>\n        \n      </div>\n    </footer>",
+			"<footer class=\"row ft-bot\">\n      <div class=\"container\" id=\"cont-bot\">\n        <div class=\"row\">\n          <div class=\"col-md-2\">\n            <img src=\"images/twitter.svg\">\n            <img src=\"images/instag.svg\">\n          </div>\n          <div class=\"col-md-10\" id=\"add_info\">\n            <h5>Carrera 7 No. 75-51 Oficina 302</h5>\n            <h5>PBX 519-0905, Bogotá, DC, Colombia</h5>\n          </div>\n        </div>        \n      </div>\n    </footer>",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"img-responsive desaturate",
+			"@desat",
+			"desaturate",
+			"filter",
+			"opac",
+			"line",
+			"text-s",
+			"font-w",
+			"sel-lang",
+			";\n",
+			"text",
+			"first",
+			"cap",
+			"<a href=\"/\" class=\"navbar-brand\">",
+			"<a href=\"#\" class=\"navbar-brand\">",
+			"<label class=\"control-label\">Seleccionar idioma</label>",
+			"<label class=\"control-label\">Idioma/ Language</label>",
+			"<label class=\"control-label\">Seleccionar idioma</label>",
+			"nav",
+			"form-cont",
+			"@media ",
+			"(min-width: 1200px)",
+			"make-grid",
+			"lead",
+			"pro-det-1",
+			"heading",
+			"<img src=\"holder.js/100%x65/gray\">",
+			"color",
+			"brand",
+			"sha",
+			"pull",
+			"@line-height-computed",
+			"@navbar-margin-botto",
+			"navbar",
+			"src=\"holder.js",
+			"images",
+			"amigos",
+			"bpm",
+			"no-touch",
+			"class",
+			"@opp",
+			".looping",
+			"loopingClass940",
+			"@opp940",
+			"<li>Todas</li>\n              <li>UX</li>\n              <li>Diseño web</li>\n              <li>Arquietectura de información</li>\n              <li>Diseño de Aplicaciones móviles</li>\n              <li>Impresos</li>\n              <li>Identidad Gráfica</li>\n              <li>Fotografía</li>\n            </ul>",
+			"refreshStyles()",
+			"refreshStyles",
+			"refres",
+			"line",
+			"primar",
+			"endColo",
+			"hover",
+			"padding: 40",
+			"responsive.less",
+			"variables",
+			"mixins",
+			"oskdesign.less",
+			"responsive.less",
+			"responsive",
+			"button",
+			"variables.less",
+			"variables",
+			"varia",
+			"padding: 70px 0 80px;\n<a href=\"#\" class=\"btn btn-primary\">Ver proyectos</a>",
+			"radius",
+			"radius----",
+			"radius",
+			"h3",
+			"http://placehold.it/100x100",
+			"span4",
+			".navbar",
+			"body",
+			"fixed",
+			"body",
+			"conta",
+			"heading",
+			"headings",
+			"body",
+			"base-url",
+			"css-url",
+			"Helvetica",
+			"css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"a href=\"contacto.php\"",
+			"<a href=\"http://instagram.com/pyp_proyectos\" target=\"_blank\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>",
+			"<!-- footer -->\n    <footer>",
+			"footer>\n      <div class=\"container\">\n        <div class=\"navbar-left text-center\">\n          <h5>Síganos en Instagram</h5>\n          <a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>P&P Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>P&P Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"class=\"img-responsive\">",
+			"<div class=\"col-md-3 project\">",
+			"<div class=\"col-md-3 project\">\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<div class=\"col-sm-3 project\">\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<!-- Here starts this project -->\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"starts this\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"starts this project \n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"<footer>\n      <div class=\"container\">\n        <div class=\"navbar-left\">\n          <a href=\"\" title=\"PyP Proyectos en Twitter\">\n            <img src=\"images/twitter.svg\">\n          </a>\n          <a href=\"\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>\n        </div>\n        <address>\n          <strong>PyP Proyectos S.A.S.</strong><br>\n          Carrera 7 No. 75-51 Oficina 302<br>\n          Bogotá DC, Colombia<br>\n          PBX: 519-0905\n        </address>\n      </div>\n    </footer>",
+			"img-responsive grayscale",
+			"<a href=\"index.html\" class=\"navbar-brand\">",
+			"<a href=\"/\" class=\"navbar-brand\">",
+			"<label class=\"control-label\">Idioma/Language</label>",
+			"proy_detalle",
+			"<img src=\"images/amarilo-logo.png\" class=\"img-responsive desaturate\">",
+			"src=\"js/holder.js",
+			"<!-- <a href=\"#\" class=\"btn btn-primary\">Ver proyectos</a> -->",
+			"<!-- <a href=\"#\" class=\"btn btn-primary\">Ver proyectos</a> -- >",
+			"h2",
+			"img/icon-.png",
+			"span6",
+			"",
+			"span6",
+			"css-url",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 535.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pro",
+				"dist/proyectos.html"
+			],
+			[
+				"equi",
+				"dist/equipo.html"
+			],
+			[
+				"car",
+				"dist/carlos_palomino.html"
+			],
+			[
+				"migue",
+				"dist/miguel_palomino.html"
+			],
+			[
+				".less",
+				"less/_mystyles.less"
+			],
+			[
+				"contact",
+				"dist/contacto.php"
+			],
+			[
+				"var",
+				"less/variables.less"
+			],
+			[
+				"index",
+				"dist/index.html"
+			],
+			[
+				"contac",
+				"dist/contacto.html"
+			],
+			[
+				"my",
+				"less/_mystyles.less"
+			],
+			[
+				"mys",
+				"css/_mystyles.css"
+			],
+			[
+				"sty",
+				"dist/css/styles.css"
+			],
+			[
+				"armando",
+				"dist/armando_palomino.html"
+			],
+			[
+				"mala",
+				"dist/miguel_malagon.html"
+			],
+			[
+				"mario",
+				"dist/mario_melgarejo.html"
+			],
+			[
+				"carlos",
+				"dist/carlos_palomino.html"
+			],
+			[
+				"ser",
+				"dist/servicios.html"
+			],
+			[
+				"inde",
+				"dist/index.html"
+			],
+			[
+				"ind",
+				"dist/index.html"
+			],
+			[
+				"eq",
+				"dist/equipo.html"
+			],
+			[
+				"ty",
+				"less/type.less"
+			],
+			[
+				"mix",
+				"less/mixins.less"
+			],
+			[
+				"variab",
+				"oskdesign/less/variables.less"
+			],
+			[
+				".sublie",
+				"/Users/osk/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings"
+			],
+			[
+				"mixins",
+				"less/mixins.less"
+			],
+			[
+				"res",
+				"less/responsive.less"
+			],
+			[
+				"utili",
+				"less/utilities.less"
+			],
+			[
+				"varia",
+				"less/variables.less"
+			],
+			[
+				"lay",
+				"less/layout.less"
+			],
+			[
+				"fonts",
+				"less/fonts.less"
+			],
+			[
+				"respon",
+				"less/responsive.less"
+			],
+			[
+				"site",
+				"less/site.less"
+			],
+			[
+				".js",
+				"js/less-1.3.3.min.js"
+			],
+			[
+				"boot",
+				"css/bootstrap.min.css"
+			],
+			[
+				"typ",
+				"less/type.less"
+			],
+			[
+				"mixin",
+				"less/mixins.less"
+			],
+			[
+				"boo",
+				"css/bootstrap.css"
+			],
+			[
+				"responsive",
+				"less/responsive.less"
+			],
+			[
+				"butt",
+				"less/buttons.less"
+			],
+			[
+				"nav",
+				"less/navbar.less"
+			],
+			[
+				"bootstra",
+				"css/bootstrap.min.css"
+			],
+			[
+				"rese",
+				"oskdesign/css/reset.css"
+			],
+			[
+				"requi",
+				"segurosdigitales/deploy/requirements.txt"
+			],
+			[
+				"home",
+				"main/templates/main/home.html"
+			],
+			[
+				"appl",
+				"applications/templates/applications/cars/forms/v0/apply.html"
+			],
+			[
+				"variables",
+				"segurosdigitales/static/styles/bootstrap/variables.less"
+			],
+			[
+				"seg",
+				"segurosdigitales/static/styles/segurosdigitales.less"
+			],
+			[
+				"font",
+				"segurosdigitales/static/styles/bootstrap/font-awesome.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}
