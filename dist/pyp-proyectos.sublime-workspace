@@ -476,6 +476,9 @@
 	},
 	"file_history":
 	[
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/pyp-proyectos/less/variables.less",
+		"/Users/oscaramaya/Documents/work/pyp-proyectos/pyp-proyectos/less/_mystyles.less",
+		"/Users/oscaramaya/Documents/work/av_villas_entrega_final_May08/assets/stylesheets/styles.css",
 		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/miguel_palomino.html",
 		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/carlos_palomino.html",
 		"/Users/oscaramaya/Documents/work/pyp-proyectos/website/dist/equipo.html",
@@ -575,6 +578,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"container",
+			"flex",
 			"a href=\"contacto.html\"",
 			"feedl",
 			"<a href=\"http://instagram.com/pyp_proyectos\" title=\"PyP Proyectos en Instagram\">\n            <img src=\"images/instag.svg\">\n          </a>",
@@ -769,6 +774,10 @@
 		"selected_items":
 		[
 			[
+				"var",
+				"less/variables.less"
+			],
+			[
 				"pro",
 				"dist/proyectos.html"
 			],
@@ -791,10 +800,6 @@
 			[
 				"contact",
 				"dist/contacto.php"
-			],
-			[
-				"var",
-				"less/variables.less"
 			],
 			[
 				"index",
