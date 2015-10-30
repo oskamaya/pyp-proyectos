@@ -1410,6 +1410,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/cindy_munoz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68716,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/cindy_munoz.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/cindy_munoz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/clara_torres.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1542,6 +1553,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/juan_carpintero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78138,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/juan_carpintero.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/juan_carpintero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/juan_felipe_garzon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1586,6 +1608,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/images\/staff\/laura_fajardo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70744,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/laura_fajardo.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/laura_fajardo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/images\/staff\/lilian_pulido.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1593,6 +1626,17 @@
 		"initialSize": 70693,
 		"inputAbbreviatedPath": "\/dist\/images\/staff\/lilian_pulido.jpg",
 		"outputAbbreviatedPath": "\/dist\/images\/staff\/lilian_pulido.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/staff\/liliana_martinez.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73073,
+		"inputAbbreviatedPath": "\/dist\/images\/staff\/liliana_martinez.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/staff\/liliana_martinez.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
